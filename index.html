@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Evolura Technologies | Dynamics 365, web, mobile and AI development</title>
+<meta name="description" content="Evolura Technologies designs, builds and supports business software: Microsoft Dynamics 365 and Power Platform, web and mobile applications, e-commerce, integrations, cloud and AI.">
+<meta name="theme-color" content="#0B1220">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Evolura Technologies">
+<meta property="og:description" content="We build the systems your business runs on: Dynamics 365, web and mobile apps, integrations and AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<!--BODY-START-->
+<a class="skip" href="#main">Skip to content</a>
+<header class="top on-dark" id="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#main" id="brand" aria-label="Evolura Technologies, home"></a>
+    <nav class="nav" id="nav" aria-label="Main"></nav>
+    <a class="btn btn-line btn-sm top-cta" href="#contact">Get in touch</a>
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow"></p>
+        <h1 id="heroTitle"></h1>
+        <p class="lead" id="heroText"></p>
+        <div class="row">
+          <a class="btn btn-light" href="#contact" id="heroPrimary"></a>
+          <a class="btn btn-ghost" href="#services" id="heroSecondary"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="stage" id="stage"><div class="stage-fallback" aria-hidden="true"></div></div>
+        <div class="scene-ui" id="sceneUi" hidden>
+          <span class="scene-word" id="sceneWord" aria-live="polite"></span>
+          <div class="scene-dots" id="sceneDots" role="tablist" aria-label="3D scenes"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="services">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Services</p><h2>What we do.</h2></div>
+        <p class="sec-text">Business applications, digital products and the cloud, AI and integration work that connects them.</p>
+      </div>
+      <div class="seg" id="serviceTabs" role="tablist" aria-label="Service groups"></div>
+      <div class="svc3d">
+        <div class="ring-wrap">
+          <div class="ring-stage" id="ringStage"><div class="ring" id="ring"></div></div>
+          <div class="ctrl">
+            <button class="arrow" type="button" id="ringPrev" aria-label="Previous service">&#8592;</button>
+            <span class="ctrl-count" id="ringCount"></span>
+            <button class="arrow" type="button" id="ringNext" aria-label="Next service">&#8594;</button>
+          </div>
+          <div class="ring-prog" id="ringProg" aria-hidden="true"><i></i></div>
+        </div>
+        <article class="svc-detail" id="svcDetail" aria-live="polite"></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec dark" id="principles">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">How we work</p><h2 id="prinHeading"></h2></div>
+        <p class="sec-text" id="prinText"></p>
+      </div>
+      <div class="principles" id="principleList"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="industries">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Industries</p><h2 id="indHeading"></h2></div>
+        <p class="sec-text" id="indText"></p>
+      </div>
+      <div class="flow" id="flow"><div class="flow-track" id="flowTrack"></div></div>
+      <div class="ctrl ctrl-center">
+        <button class="arrow" type="button" id="flowPrev" aria-label="Previous industry">&#8592;</button>
+        <div class="flow-dots" id="flowDots" role="tablist" aria-label="Industries"></div>
+        <button class="arrow" type="button" id="flowNext" aria-label="Next industry">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec soft" id="why">
+    <div class="wrap" id="features"></div>
+  </section>
+
+  <section class="sec" id="approach">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Approach</p><h2 id="approachHeading"></h2></div>
+        <p class="sec-text" id="approachText"></p>
+      </div>
+      <ol class="steps" id="steps"></ol>
+    </div>
+  </section>
+
+  <section class="sec soft" id="platforms">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Technology</p><h2 id="platformHeading"></h2></div>
+      </div>
+      <div class="tech" id="techGroups"></div>
+      <p class="fine" id="platformNote"></p>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="wrap about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="aboutHeading"></h2>
+        <div id="aboutText"></div>
+      </div>
+      <aside class="aside" id="aboutAside"></aside>
+    </div>
+  </section>
+
+  <section class="sec soft" id="contact">
+    <div class="wrap contact">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contactHeading"></h2>
+      <p class="sec-text center" id="contactText"></p>
+      <form class="form" id="form" novalidate>
+        <div class="two">
+          <label for="f-name">Name<input id="f-name" name="name" autocomplete="name" required></label>
+          <label for="f-email">Work email<input id="f-email" name="email" type="email" autocomplete="email" required></label>
+        </div>
+        <div class="two">
+          <label for="f-company">Company<input id="f-company" name="company" autocomplete="organization"></label>
+          <label for="f-country">Country<input id="f-country" name="country" autocomplete="country-name"></label>
+        </div>
+        <label for="f-service">Service<select id="f-service" name="service"></select></label>
+        <label for="f-msg">Project details<textarea id="f-msg" name="message" rows="5" maxlength="1500" required></textarea><span class="count" id="count">0 / 1500</span></label>
+        <input type="checkbox" name="botcheck" id="f-bot" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="consent" for="f-consent"><input type="checkbox" id="f-consent" required><span>I agree that Evolura may use these details to reply to me, as described in the <a href="privacy.html">privacy policy</a>.</span></label>
+        <button class="btn" type="submit">Send enquiry</button>
+        <p class="form-msg" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid" id="footGrid"></div>
+  <div class="wrap foot-base" id="footBase"></div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top" tabindex="-1">
+  <svg class="tt-ring" viewBox="0 0 58 58" aria-hidden="true"><circle class="tt-track" cx="29" cy="29" r="26"/><circle class="tt-bar" id="ttBar" cx="29" cy="29" r="26"/></svg>
+  <span class="tt-face" id="ttFace"><svg class="tt-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5"/></svg></span>
+</button>
+
+<script src="site.config.js"></script>
+<script src="assets/lenis.js"></script>
+<script src="assets/hero3d.js"></script>
+<script src="assets/app.js"></script>
+<!--BODY-END-->
+</body>
+</html>
